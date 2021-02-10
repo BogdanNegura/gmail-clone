@@ -4,8 +4,7 @@ import { Header } from '../header/header.component';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import { Mail } from '../mail/mail.component';
 import { MailList } from '../mail-list';
