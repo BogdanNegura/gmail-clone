@@ -1,6 +1,6 @@
 import React from 'react'
 import { Sidebar } from '../sidebar/sidebar.component';
-import { Header } from './header/header.component';
+import { Header } from '../header/header.component';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,11 +9,12 @@ import {
 } from "react-router-dom";
 import { Mail } from '../mail/mail.component';
 import { MailList } from '../mail-list';
+import "./app.style.css"
 
 const App = () => {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Header />
         <div className="app__body">
           <Sidebar/>
