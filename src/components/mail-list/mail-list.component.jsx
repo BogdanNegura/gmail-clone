@@ -1,5 +1,5 @@
 import { IconButton } from '@material-ui/core'
-import { CheckBox } from '@material-ui/icons'
+import CheckBox from '@material-ui/core/Checkbox'
 import React from 'react'
 import "./mail-list.style.css"
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
