@@ -9,6 +9,7 @@ import {
 import { Mail } from '../mail/mail.component';
 import { MailList } from '../mail-list';
 import "./app.style.css"
+import { SendMail } from '../send-mail/send-mail.component';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
             </Route>
           </Switch>
         </div>
+        <SendMail/>
       </div>
     </Router>
   );
